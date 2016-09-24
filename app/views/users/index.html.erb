@@ -1,0 +1,5 @@
+<hi>User一覧</hi>
+
+<% @users.each do |user| %>
+<%= lind_to user.email, user_path(user.id )%><br>
+<% end %>
